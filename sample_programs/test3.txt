@@ -1,0 +1,13 @@
+print "\nThis will add two numbers together and square the sum!\n";
+
+print "\tEnter First Number\t: ";
+get x;
+print "\tEnter Second Number\t: ";
+get y;
+
+z = x + y;
+r = z * z;
+
+print "Sum Squared = ";
+print r;
+print "\n";

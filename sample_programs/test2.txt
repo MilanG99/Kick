@@ -1,0 +1,28 @@
+print "\nNet Investment Calculator\n";
+print "------------------------";
+
+print "\nEnter Home Value ($)\t:";
+get home;
+print "Enter Car Value ($)\t:";
+get car;
+print "Enter Investments ($)\t:";
+get investments;
+print "Enter Debt ($)\t\t:";
+get debt;
+
+assets = home + investments;
+assets = assets + car;
+total = assets - debt;
+
+print "------------------------";
+print "\nNet Worth : $";
+print total;
+
+print "Asset to Debt Ratio: ";
+if (debt > 0)
+then
+    r = assets / debt;
+    print r;
+else
+    print "N/A";
+end;

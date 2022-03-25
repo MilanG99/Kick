@@ -1,0 +1,8 @@
+print "\nAdded Feature - Char Example\n";
+print "Enter First Initial:\t";
+get first;
+print "Enter Last Initial:\t";
+get last;
+
+print first;
+print last;

@@ -1,0 +1,10 @@
+print "\nEnter Height (ft)?\n";
+print "\tEnter a number above/below 6: ";
+get h;
+
+if (h >= 6)
+then
+    print "\tAt or over 6 feet\n";
+else
+    print "\tUnder 6 feet\n";
+end;

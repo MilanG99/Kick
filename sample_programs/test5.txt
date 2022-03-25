@@ -1,0 +1,11 @@
+print "\nAdded Feature - Boolean Example\n";
+print "Will notify if evaluated correctly\n\n";
+
+if (1)
+then
+    print "Evaluated Correctly!";
+else
+    print "Evaluated Incorrectly :(";
+end;
+
+print "\n";
