@@ -5,15 +5,15 @@ This project is a toy interpreted language that is implemented with Python. It i
 This is currently a WIP. Modifications and updates to come.
 
 # Files
-lexer.py
-	- python source code for the project lexer
-	- used by the parser/interpreter
+lexer.py :
+- python source code for the project lexer
+- used by the parser/interpreter
 
-parser.py
-	- python source code for the rescursive-descent parser/interpreter
-	- contains code for the parser and test driver function to showcase functionality of parser and interpreter
-	- execute via command line (see RUN THE PARSER)
-	- command line used for input/output during execution
+parser.py :
+- python source code for the rescursive-descent parser/interpreter
+- contains code for the parser and test driver function to showcase functionality of parser and interpreter
+- execute via command line (see Execute Programs with Kick)
+- command line used for input/output during execution
 
 # Execute Programs with Kick
 
